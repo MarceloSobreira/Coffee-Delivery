@@ -1,15 +1,3 @@
-interface tagsProps {
-  type: 'tradicional' | 'gelado' | 'com leite' | 'especial' | 'alcoólico'
-}
-
-interface coffeesApiProps {
-  id: number
-  name: string
-  description: string
-  price: number
-  tags: tagsProps
-  image: string
-}
 
 export const coffeesApi = [
   {
